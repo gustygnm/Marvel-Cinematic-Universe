@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundTab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ScrollNested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/scTampilan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.github.florent37.arclayout.ArcLayout
+                    android:id="@+id/diagonalLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:elevation="10dp"
+                    app:arc_cropDirection="cropOutside"
+                    app:arc_height="20dp"
+                    app:arc_position="bottom">
+
+                    <com.flaviofaria.kenburnsview.KenBurnsView
+                        android:id="@+id/imgBg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:background="@drawable/black_gradient"
+                            android:orientation="vertical"
+                            android:padding="8dp">
+
+                            <TextView
+                                android:id="@+id/txtJudul"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/calibri"
+                                android:gravity="center"
+                                android:text="Judul"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txtTahun"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:fontFamily="@font/calibri"
+                                android:gravity="center"
+                                android:text="2019"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                </com.github.florent37.arclayout.ArcLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/diagonalLayout"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/backgroundTab" />
+
+                            <LinearLayout
+                                android:id="@+id/animView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="16dp"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:fontFamily="@font/calibri"
+                                            android:gravity="center_vertical"
+                                            android:text="Quotes Terbaik"
+                                            android:layout_marginBottom="8dp"
+                                            android:textColor="@color/colorText"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/txtQuotes"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:lineSpacingExtra="5dp"
+                                            android:layout_gravity="center_vertical"
+                                            android:fontFamily="@font/calibri"
+                                            android:text="You know, I know a few techniques that could help you manage that anger effectively."
+                                            android:textColor="@color/colorText"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/backgroundTab" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/txtIsi"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="sans-serif-light"
+                                    android:lineSpacingExtra="5dp"
+                                    android:textColor="@color/colorText"
+                                    android:textIsSelectable="true"
+                                    android:textSize="16sp"
+                                    tools:text="Isi cerita" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/backgroundTab" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:background="@color/backgroundTab" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
