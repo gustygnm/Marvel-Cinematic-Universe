@@ -1,4 +1,4 @@
-# Marvel-Cinematic-Universe
+# Marvel-Cinematic-Universe-App
 Project Submit kelas Belajar Membuat Aplikasi Android untuk Pemula Dicoding
 
 ## Sumber data berasal dari : [22 Urutan Film Marvel Cinematic Universe dari Awal hingga Avengers: Endgame](https://www.tokopedia.com/blog/film-daftar-urutan-marvel/)
