@@ -7,15 +7,15 @@ Project Submit kelas Belajar Membuat Aplikasi Android untuk Pemula Dicoding
 
 ## Berikut hasil screenshot dari aplikasi Marvel Cinematic Universe:
 
-1. Listview
+1. ListView
 
 ![Image1](https://i.ibb.co/gmRjyRy/photo-2019-05-14-03-34-57.jpg)
 
-2. Gridview
+2. GridView
 
 ![Image2](https://i.ibb.co/9vc1Hj5/photo-2019-05-14-03-34-54.jpg)
 
-3. Cardview
+3. CardView
 
 ![Image3](https://i.ibb.co/rQbN8NG/photo-2019-05-14-03-34-50.jpg)
 
