@@ -22,3 +22,6 @@ Project Submit kelas Belajar Membuat Aplikasi Android untuk Pemula Dicoding
 4. Detail
 
 ![Image4](https://i.ibb.co/nksVv1G/photo-2019-05-14-03-34-45.jpg)
+
+
+# Thanks for coming !
