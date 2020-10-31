@@ -11,7 +11,7 @@ Project Submit kelas Belajar Membuat Aplikasi Android untuk Pemula Dicoding
 
 ![Image1](https://i.ibb.co/gmRjyRy/photo-2019-05-14-03-34-57.jpg)
 
-2. GridView
+2. GridView 
 
 ![Image2](https://i.ibb.co/9vc1Hj5/photo-2019-05-14-03-34-54.jpg)
 
